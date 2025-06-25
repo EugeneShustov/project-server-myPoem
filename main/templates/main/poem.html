@@ -1,0 +1,8 @@
+<div class="poem">
+    <h1>{{ title }} ({{ author }})</h1>
+    <p>
+        {% for line in lines %}
+            {{ line }}<br>
+        {% endfor %}
+    </p>
+</div>

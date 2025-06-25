@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Морали художника</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'EB Garamond', serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            background-size: 400% 400%;
+            animation: gradientShift 20s ease infinite;
+            color: #f3f0e8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .poem {
+            background: rgba(255, 255, 255, 0.06);
+            padding: 2.5rem 3.5rem;
+            border-radius: 15px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .poem h1 {
+            font-size: 2.2em;
+            margin-bottom: 1rem;
+            font-weight: normal;
+            letter-spacing: 1px;
+        }
+
+        .poem p {
+            font-size: 1.1em;
+            line-height: 1.75;
+            white-space: pre-line;
+        }
+    </style>
+</head>
+<body>
+    <div class="poem">
+        <h1>Морали художника (Шустов Е.Н)</h1>
+        <p>
+И твой выраженный совет
+На портрете он восходит —
+Словно кистью в ателье —
+Тёмным по руке проходит.
+
+Сломленный, как дежавю,
+Мыслью на холсте возносит
+Этот тонущий узор —
+Колыбелью в сон уносит.
+
+И снова цветом утаил,
+Броским взглядом — чёрным, в дрожи.
+И злопамятный обман
+Разметал собой покой.
+
+Как тревожный полумрак —
+В шёпоте твоём укрыться
+На безмолвном берегу,
+Где я остался не прощён.
+        </p>
+    </div>
+</body>
+</html>
